@@ -4,7 +4,7 @@ import traceback
 from langchain_core.messages import HumanMessage, AIMessage
 
 from scraper import RecursiveWebScraper
-from rag import RAGPipeline
+from rag2 import RAGPipeline
 
 # Basic page config for modern look
 st.set_page_config(page_title="RAG Chatbot", page_icon="🤖", layout="wide")
